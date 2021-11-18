@@ -8,6 +8,6 @@ public class Mythread extends Thread{
         //System.out.println(obj.getPriority());//will return the priority value
         obj.setPriority(Thread.MAX_PRIORITY);//change the priority value
         System.out.println(obj.getPriority());
-        System.out.println(obj.getId());//return the id 
+        System.out.println(obj.getId());//return the id
     }
 }
