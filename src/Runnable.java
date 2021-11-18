@@ -5,7 +5,7 @@ class Runnable implements java.lang.Runnable {
     public void run() {
         Thread.currentThread().setName("E custom Thread");
         for (int i = 0; i < 10; i++) {
-            System.out.println("Runnable");
+            System.out.println(Thread.currentThread().getName());
 
         }
     }
